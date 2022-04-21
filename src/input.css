@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .button {
+        @apply bg-green-500 text-white m-20 p-4 rounded-md border-2 border-black border-double shadow-2xl shadow-gray-700 text-lg lg:text-yellow-700 sm:text-blue-700 md:text-white hover:bg-green-800 transition ease-in-out
+    }
+
+
+}
+
+@layer utilities{
+   .bg-green-500{
+        color:blue;
+    }
+}
+
+@layer base{
+    a {
+    @apply    text-red-500
+    }
+}
